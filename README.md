@@ -2,7 +2,7 @@
 
 An automated pipeline for **detection, classification, annotation, and downstream analysis** of **LTR retrotransposons** in plant genomes, integrating multiple tools into a streamlined workflow.
 
-[![DOI](https://zenodo.org/badge/DOI/XX.XXXX/zenodo.XXXXXXXX.svg)](https://doi.org/XX.XXXX/zenodo.XXXXXXXX)  <!-- Replace with actual DOI -->
+[![DOI](https://zenodo.org/badge/1038792517.svg)](https://doi.org/10.5281/zenodo.16884341)  <!-- Replace with actual DOI -->
 
 ---
 
