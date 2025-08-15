@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PlantLTR-Scan: Automated Pipeline for Detecting, Classifying, and Annotating LTR Retrotransposons in Plant Genomes
 
 An automated pipeline for **detection, classification, annotation, and downstream analysis** of **LTR retrotransposons** in plant genomes, integrating multiple tools into a streamlined workflow.
