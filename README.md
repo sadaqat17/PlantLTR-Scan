@@ -172,9 +172,3 @@ For questions or issues, please contact:
 - **Mr. Muhammad Sadaqat** – [muhammad.sadaqat@univ-rennes.fr](mailto:muhammad.sadaqat@univ-rennes.fr)  
 - **Mr. Rana Sheraz Ahmad** – [ranasheraz.202101902@gcuf.edu.pk](mailto:ranasheraz.202101902@gcuf.edu.pk)
 - **Dr. Muhammad Tahir ul Qamar** – [m.tahirulqamar@hotmail.com](mailto:m.tahirulqamar@hotmail.com)  
-
-
-=======
-# PlantLTR-Scan
-PlantLTR-Scan: Automated Pipeline for Detecting, Classifying, and Annotating LTR Retrotransposons in Plant Genomes
->>>>>>> b74376a001bfc6d730f1ad50615cbd1b131aa4d1
