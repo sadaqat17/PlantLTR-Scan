@@ -44,7 +44,7 @@ An automated pipeline for **detection, classification, annotation, and downstrea
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/YourUsername/PlantLTR-Scan.git
+    git clone https://github.com/sadaqat17/PlantLTR-Scan.git
     cd PlantLTR-Scan
     # Add the bin to PATH (optional)
     export PATH=$PATH:/path/to/PlantLTR-scan
