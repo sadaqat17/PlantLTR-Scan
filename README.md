@@ -108,7 +108,7 @@ The genome sequence files should be in FASTA format with the following structure
 >chr1
 ATCGATCG...
 ```
-*File extensions such as `.fa`, `.fasta`, `.fna`, or other common genome file suffixes are supported. It is recommended to use descriptive names (e.g., `Alphonso.fna`, `Alphonso.fasta` or `Alphonso.fa`). FASTA Header should be short such as chr1*
+*File extensions such as `.fa`, `.fasta`, `.fna`, or other common genome file suffixes are supported. It is recommended to use descriptive names (e.g., `Alphonso.fna`, `Alphonso.fasta` or `Alphonso.fa`). FASTA Header should be short (less than 10 characters) such as chr1*
 
 #### 2. Annotation Files
 Annotation files should be in GTF, GFF, GFF3 format and include information about genes, mRNA, exons, and CDS. Below is an example of a valid GFF3 file:
