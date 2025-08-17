@@ -221,6 +221,7 @@ cd ./tmp/Gene_ontology
 echo "Running gene ontology analysis..."
 python ../../bin/SANSPANZ.3/runsanspanz.py -R -o ",DE.out,GO.out,anno.out" -s "$SPECIES" < Gene_inserted_LTR_proteins.fasta
 python ../../bin/ontology_summary.py -i GO.out -o ../../Results/GO
-python ../../bin/summary_stat.py -i TEsorter_final_LTRs.fasta -o summary
+cd ../../Results
+python ../bin/summary_stat.py -i TEsorter_final_LTRs.fasta -o summary
 echo "Pipeline completed successfully!"
 conda deactivate
