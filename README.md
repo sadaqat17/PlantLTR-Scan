@@ -145,6 +145,7 @@ The pipeline creates the following outputs in the `Results` directory:
 - **Gene Inserted LTRs Prediction** (`Gffcompare_summary.txt`)
 - **Gene Inserted LTR proteins** (`Gene_inserted_LTR_proteins.fasta`)
 - **Gene Ontology Files** (`GO_BP.tsv`, `GO_CC.tsv`, `GO_MF.tsv`)
+- **Copia and Gypsy Summary** (`summary_stat.txt`)
 
 ---
 
