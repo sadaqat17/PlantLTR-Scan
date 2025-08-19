@@ -2,7 +2,6 @@
 #SBATCH --job-name=Alphonso
 #SBATCH --mem=50G
 #SBATCH --cpus-per-task=12
-#SBATCH -p ecobio,genouest
 
 # -----------------------------
 # Environment Setup
