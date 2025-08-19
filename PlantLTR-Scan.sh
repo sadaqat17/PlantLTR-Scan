@@ -107,7 +107,7 @@ cp "$LTR_OUT" "$LTR_RET_TMP/"
 
 echo "Running LTR_retriever..."
 cd "$LTR_RET_TMP" || exit 1
-LTR_retriever -genome "../../$FASTA_FILE" -infinder "$(basename "$LTR_OUT")" -threads "$THREADS" -noanno || { echo "❌ LTR_retriever failed."; exit 1; }
+LTR_retriever -genome "../../$FASTA_FILE" -infinder "$(basename "$LTR_OUT")" -threads "$THREADS" -noanno || { echo "LTR_retriever failed."; exit 1; }
 
 rm *.nmtf.pass.list
 PASS_LIST=$(find . -name "*.pass.list" | head -n 1)
@@ -203,7 +203,7 @@ cp "$GFF_INPUT_REF" "$GFF_COMPARE_DIR/"
 cd "$GFF_COMPARE_DIR" || exit 1
 
 echo "Running gffcompare..."
-gffcompare -r "$(basename "$GFF_INPUT_REF")" -o "$(basename "$GFF_OUTPUT_PREFIX")" "$(basename "$GFF_PRED")" || { echo "❌ gffcompare failed."; exit 1; }
+gffcompare -r "$(basename "$GFF_INPUT_REF")" -o "$(basename "$GFF_OUTPUT_PREFIX")" "$(basename "$GFF_PRED")" || { echo "gffcompare failed."; exit 1; }
 
 cd ../../
 python ./bin/filter_tracking.py -i ./tmp/gffcompare/*.tracking -o ./Results/Gffcompare_summary.txt
